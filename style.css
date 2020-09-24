@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 #canvas {
-  height: 100vh;
-  border: 1px solid red;
+  /* height: 100vh;
+  width: 100vw; */
+  /* border: 1px solid red; */
+  display: block; /*canvas默认为inline元素*/
 }
